@@ -1,9 +1,8 @@
-import { ExchangeService } from "./service/exchange.service";
-
-console.log('ahoj z app');
+import { ExchangeService } from './service/exchange.service';
 
 const exchangeService = new ExchangeService();
 
-const moneyDto = exchangeService.exchange({ price: 20, currency: "EUR" });
+const moneyDto = exchangeService.exchange({ price: 40, currency: 'EUR' });
 
 console.log(moneyDto);
+
