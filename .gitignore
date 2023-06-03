@@ -1,4 +1,7 @@
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/vcs.xml
-/.idea/example-tampermonkey-ts.iml
+/.idea/**
+
+# Node Files #
+/node_modules/
+/bower_components/
+npm-debug.log
+/npm-debug.log.*
